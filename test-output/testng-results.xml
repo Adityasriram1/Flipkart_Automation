@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-17T13:03:08 IST" name="Suite" finished-at="2026-02-17T13:03:22 IST" duration-ms="14008">
+    <groups>
+    </groups>
+    <test started-at="2026-02-17T13:03:08 IST" name="Test" finished-at="2026-02-17T13:03:22 IST" duration-ms="14008">
+      <class name="TestPackage.HomeTest">
+        <test-method is-config="true" signature="openFlipkart()[pri:0, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:08 IST" name="openFlipkart" finished-at="2026-02-17T13:03:13 IST" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+        <test-method signature="EnterText()[pri:1, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:14 IST" name="EnterText" finished-at="2026-02-17T13:03:18 IST" duration-ms="3979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterText -->
+        <test-method signature="ClickOnIphone()[pri:2, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:18 IST" name="ClickOnIphone" finished-at="2026-02-17T13:03:20 IST" duration-ms="2252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnIphone -->
+        <test-method signature="switchtoproducttab()[pri:3, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:20 IST" name="switchtoproducttab" finished-at="2026-02-17T13:03:22 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchtoproducttab -->
+        <test-method signature="Redirection()[pri:4, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:22 IST" name="Redirection" finished-at="2026-02-17T13:03:22 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Redirection -->
+      </class> <!-- TestPackage.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
