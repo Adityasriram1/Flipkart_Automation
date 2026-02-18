@@ -2,31 +2,42 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T13:03:08 IST" name="Suite" finished-at="2026-02-17T13:03:22 IST" duration-ms="14008">
+  <suite started-at="2026-02-18T23:49:02 IST" name="Suite" finished-at="2026-02-18T23:49:14 IST" duration-ms="12044">
     <groups>
     </groups>
-    <test started-at="2026-02-17T13:03:08 IST" name="Test" finished-at="2026-02-17T13:03:22 IST" duration-ms="14008">
+    <test started-at="2026-02-18T23:49:02 IST" name="Test" finished-at="2026-02-18T23:49:14 IST" duration-ms="12044">
       <class name="TestPackage.HomeTest">
-        <test-method is-config="true" signature="openFlipkart()[pri:0, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:08 IST" name="openFlipkart" finished-at="2026-02-17T13:03:13 IST" duration-ms="5189" status="PASS">
+        <test-method is-config="true" signature="openFlipkart()[pri:0, instance:TestPackage.HomeTest@7817fd62]" started-at="2026-02-18T23:49:02 IST" name="openFlipkart" finished-at="2026-02-18T23:49:05 IST" duration-ms="2956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFlipkart -->
-        <test-method signature="EnterText()[pri:1, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:14 IST" name="EnterText" finished-at="2026-02-17T13:03:18 IST" duration-ms="3979" status="PASS">
+        <test-method signature="EnterText(java.lang.String)[pri:1, instance:TestPackage.HomeTest@7817fd62]" started-at="2026-02-18T23:49:05 IST" name="EnterText" data-provider="testdata" finished-at="2026-02-18T23:49:09 IST" duration-ms="3706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone 15]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterText -->
-        <test-method signature="ClickOnIphone()[pri:2, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:18 IST" name="ClickOnIphone" finished-at="2026-02-17T13:03:20 IST" duration-ms="2252" status="PASS">
+        <test-method signature="ClickOnIphone()[pri:2, instance:TestPackage.HomeTest@7817fd62]" started-at="2026-02-18T23:49:09 IST" name="ClickOnIphone" finished-at="2026-02-18T23:49:11 IST" depends-on-methods="TestPackage.HomeTest.EnterText" duration-ms="2224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnIphone -->
-        <test-method signature="switchtoproducttab()[pri:3, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:20 IST" name="switchtoproducttab" finished-at="2026-02-17T13:03:22 IST" duration-ms="2042" status="PASS">
+        <test-method signature="switchtoproducttab()[pri:3, instance:TestPackage.HomeTest@7817fd62]" started-at="2026-02-18T23:49:11 IST" name="switchtoproducttab" finished-at="2026-02-18T23:49:13 IST" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchtoproducttab -->
-        <test-method signature="Redirection()[pri:4, instance:TestPackage.HomeTest@65e98b1c]" started-at="2026-02-17T13:03:22 IST" name="Redirection" finished-at="2026-02-17T13:03:22 IST" duration-ms="432" status="PASS">
+        <test-method signature="Redirection()[pri:4, instance:TestPackage.HomeTest@7817fd62]" started-at="2026-02-18T23:49:13 IST" name="Redirection" finished-at="2026-02-18T23:49:14 IST" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Redirection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPackage.HomeTest@7817fd62]" started-at="2026-02-18T23:49:14 IST" name="closeBrowser" finished-at="2026-02-18T23:49:14 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- TestPackage.HomeTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

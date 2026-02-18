@@ -5,7 +5,9 @@
     <classes>
       <class name="TestPackage.HomeTest">
         <methods>
-          <include name="EnterText"/>
+          <include name="Redirection"/>
+          <include name="ClickOnIphone"/>
+          <include name="EnterText" invocation-numbers="1 2"/>
           <include name="openFlipkart"/>
         </methods>
       </class> <!-- TestPackage.HomeTest -->

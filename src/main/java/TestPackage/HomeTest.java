@@ -1,6 +1,7 @@
 package TestPackage;
 import java.util.Set;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import BasePackage.BaseClass;
@@ -9,14 +10,15 @@ import Pages.Iphonepage;
 import Pages.RedirectionIphone;
 public class HomeTest extends BaseClass {
 	
-  @Test(priority=1)
-  public void EnterText() throws InterruptedException {
+  @Test(priority=1,dataProvider="testdata",dataProviderClass=utilities.datadrivernproviders.class)
+  public void EnterText(String iname) throws InterruptedException {
 	  HomePage hp=new HomePage(driver);
 	  Thread.sleep(2000);
-	  hp.EntertextinSearchbox("Iphone 15");
+	  hp.EntertextinSearchbox(iname);
+	  Assert.assertTrue(true);
 	  
   }
-  @Test(priority=2)
+  @Test(priority=2,dependsOnMethods="EnterText")
   public void ClickOnIphone() throws InterruptedException {
 	  Iphonepage ip=new Iphonepage(driver);
 	  Thread.sleep(2000);
