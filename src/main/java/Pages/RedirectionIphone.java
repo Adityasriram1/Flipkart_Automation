@@ -23,7 +23,8 @@ public class RedirectionIphone {
 			  
 		  }
 	}
-	public void redirectionpage() {
+	public void redirectionpage() throws InterruptedException {
+	Thread.sleep(2000);
 	 driver.findElement(cartsymbol).click();	
 	}
 
